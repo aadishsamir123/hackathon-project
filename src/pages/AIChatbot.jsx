@@ -130,7 +130,7 @@ Always be warm, supportive, and encourage seeking professional help when appropr
 
             const completion = await groqClient.chat.completions.create({
                 messages: apiMessages,
-                model: 'llama3-8b-8192', // Using Llama 3 8B model
+                model: 'llama-3.1-8b-instant', // Using Llama 3 8B model
                 temperature: 0.7,
                 max_tokens: 1000,
                 top_p: 1,
